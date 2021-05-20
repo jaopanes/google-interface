@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+input,
+button {
+    border: 0;
+    padding: 0;
+    outline: none;
+}
+
+input,
+button,
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+a,
+a:visited {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+/* bar top */
+
+.bar-top {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 50px;
+    float: left;
+}
+
+.bar-top ul {
+    display: flex;
+}
+
+.bar-top ul li {
+    font-size: 14px;
+    padding-left: 15px;
+}
+
+
+/* content */
+
+.content {
+    width: 100%;
+    height: calc(100vh - 150px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.content .logo {
+    font-size: 85px;
+    font-weight: 500;
+    letter-spacing: -13px;
+    color: #4285F4;
+}
+
+.content .logo .yellow {
+    color: #FBBC05
+}
+
+.content .logo .red {
+    color: #EA4335
+}
+
+.content .logo .green {
+    color: #34A853
+}
+
+.content .logo .hyper {
+    font-size: 95px;
+}
+
+.content .based-btn {
+    display: flex;
+}
+
+.content .based-btn .btn {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    height: 36px;
+    padding: 0 16px;
+    margin: 11px 4px;
+    cursor: pointer;
+}
+
+.content .based-btn .btn:hover {
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+}
+
+.content .based-link {
+    font-size: 13px;
+    margin-top: 24px;
+}
+
+.content .based-link a {
+    color: blue;
+}
+
+.content .based-input {
+    width: 100%;
+    max-width: 550px;
+    position: relative;
+    margin: 15px 0;
+}
+
+.content .based-input input {
+    width: 100%;
+    height: 45px;
+    border-radius: 50px;
+    background-color: #FFF;
+    border: 1px solid #dadce0;
+    padding: 0 15px;
+}
+
+.content .based-input input:hover,
+.content .based-input input:focus {
+    box-shadow: 0 2px 5px rgb(0 0 0 / 10%);
+}
+
+.bar-bottom {
+    background-color: #f2f2f2;
+    width: 100%;
+    float: left;
+}
+
+.bar-bottom>div {
+    display: flex;
+    height: 50px;
+    padding: 0 30px;
+    color: rgba(0, 0, 0, .54);
+    font-size: 14px;
+    align-items: center;
+}
+
+.bar-bottom div:last-child {
+    justify-content: space-between;
+    border-top: 1px solid #dadce0;
+}
+
+.bar-bottom div:last-child ul {
+    display: flex;
+}
+
+.bar-bottom div:last-child ul li {
+    padding-right: 15px;
+}
+
+.bar-bottom div:last-child ul li:last-child {
+    padding-right: 0;
+}
